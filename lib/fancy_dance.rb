@@ -1,14 +1,5 @@
 module FancyDance
   
-  module ClassMethods
-    
-    def metadata
-    "This class produces objects that love to dance."
-    end 
-    
-  end 
-  
-  
   module InstanceMethods
     
       def twirl
@@ -28,6 +19,16 @@ module FancyDance
     end 
   
   end 
+  
+  
+  module ClassMethods
+    
+    def metadata
+    "This class produces objects that love to dance."
+    end 
+    
+  end 
+  
   
   
 end 
